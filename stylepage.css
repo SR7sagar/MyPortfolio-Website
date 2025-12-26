@@ -311,7 +311,7 @@ section {
     position: relative;
     font-size: 5rem;
     margin-bottom: 3rem;
-    text-align: center;  
+    text-align: center;
 }
 
 .heading1 {
@@ -580,69 +580,69 @@ span {
 /* ------------------------- Coding & Soft Skills Section ------------------------------- */
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
-    width: 90%; /* KQL */
+    width: 100%; /* KQL */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 70%; /* Python */
+    width: 80%; /* Python */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-    width: 90%; /* C-Programming */
+    width: 80%; /* C-Programming */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 90%; /* HTML/CSS */
+    width: 100%; /* HTML/CSS */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
-    width: 60%; /* SQL */
+    width: 80%; /* SQL */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span {
-    width: 80%; /* Java */
+    width: 50%; /* Java */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span {
-    width: 30%; /* JavaScript */
+    width: 100%; /* JavaScript */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(8) .bar span {
-    width: 95%; /* Teamwork & Collaboration */
+    width: 100%; /* Teamwork & Collaboration */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(9) .bar span {
-    width: 99%; /* Continuous Learning */
+    width: 100%; /* Continuous Learning */
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(10) .bar span {
-    width: 80%; /* Time Management */
+    width: 100%; /* Time Management */
 }
 
 /* ------------------------- Professional Skills Section ------------------------------- */
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-    width: 95%; /* Azure Platform */
+    width: 100%; /* Azure Platform */
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-    width: 85%; /* Linux CLI & Scripting */
+    width: 100%; /* Linux CLI & Scripting */
 }
  
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    width: 95%; /* Technical Writing & Documentation */
+    width: 100%; /* Technical Writing & Documentation */
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-    width: 85%; /* Reverse Engineering */
+    width: 80%; /* Malware Analysis */
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
-    width: 90%; /* Cyber security tools [ OSINT ] */
+    width: 100%; /* Threat Intelligence & OSINT Tools */
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span {
-    width: 85%; /* Digital Forensics & Incident Response */
+    width: 100%; /* Digital Forensics & Incident Response */
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(7) .bar span {
@@ -650,7 +650,7 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(8) .bar span {
-    width: 90%; /* Network Security Fundamentals */
+    width: 100%; /* Network Security Fundamentals */
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(9) .bar span {
@@ -658,7 +658,7 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(10) .bar span {
-    width: 85%; /* Risk & Compliance */
+    width: 80%; /* Security Frameworks & Compliance (NIST, ISO 27001, CIS, GDPR) */
 }
 
 .contact {
@@ -780,7 +780,7 @@ section:nth-child(odd) .animate.scroll,
 
 
 
-/* BREAKPOINS */
+/* BREAKPOINTS */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -923,6 +923,7 @@ section:nth-child(odd) .animate.scroll,
 @media (max-width: 371px) {
     .home {
         justify-content: center;
+        width: 100%;
     }
 
     .home-content {
@@ -930,11 +931,9 @@ section:nth-child(odd) .animate.scroll,
         align-items: center;
         flex-direction: column;
         text-align: center;
+        padding: 0 1rem;
     }
 
-    .home-content h1 {
-        font-size: 5rem;
-    }
 }
 
 
